@@ -6,24 +6,24 @@ export let e_img = document.querySelectorAll('.e_img');
  {
     name : "David",
     Description: "David is a nice and forgiving guy who will never take any revenge.",
-    Image : "images/Characters/david.png"},
+    Image : "david.png"},
  {
     name:"Alex" , 
     Description: "Alex is constantly seeking revenge, so be careful around him.",
-    Image : "images/Characters/alex.png"},
+    Image : "alex.png"},
 
  {
      name:"Jerald" , 
     Description: "Jerald is a mysterious guy; his actions could be good or bad, leaving everyone guessing.",
-    Image : "images/Characters/jerald.png"},   
+    Image : "jerald.png"},   
 {
     name:"Javid" , 
     Description: "Javid is usually patient and forgiving, but he won't wait indefinitely to seek revenge.",
-    Image : "images/Characters/javid.png"},
+    Image : "javid.png"},
 {
     name:"Lorem" , 
     Description: "Lorem is a lifeless youngster who simply copies others' actions.",
-    Image : "images/Characters/lorem.png"},
+    Image : "lorem.png"},
 ];
 
 
