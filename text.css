@@ -1,0 +1,10 @@
+.h_para{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.etxt{
+    position: absolute;
+    left: 30%;
+}

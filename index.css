@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: gray;
+}
+
+.content{
+    flex: 1;
+    
+    
+    
+}
+
+.content{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   
+    
+}
+
+.bg_enemyscore{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.enemy_scoreboard{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.player_scoreboard{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.battle_ground{
+    padding: 0;
+}
+
+.enemy_score_display{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+
+}
+
+.enemy_animation{
+    animation: enemychoice;
+    animation-duration: 0.5s;
+}
+
+@keyframes enemychoice {
+
+    from{
+        opacity: 0.3;
+    } to{
+        opacity: 1;
+    }
+    
+}

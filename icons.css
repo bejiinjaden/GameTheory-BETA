@@ -1,0 +1,116 @@
+.enemy_sele{
+    position: relative;
+    height: 85%;
+    width: 25%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10%;
+}
+
+.battle_ground{
+    border-style: solid;
+    border-color: black;
+
+    height: 80%;
+    width: 40%;
+}
+
+.e_imgs{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.e_img{
+    height: 200px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    transition: border-width 0.3s , background-color 0.3s;
+    cursor: pointer;
+}
+
+.e_img:hover{
+   
+    background-color: rgb(180, 178, 178);
+}
+
+
+
+.scoreboard_img{
+    height: 300px;
+}
+
+.score{
+    
+    height: 25px;
+    width: 20px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.player_choice_board{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.playerchoice_green , .playerchoice_red , .enemychoice_green , .enemychoice_red{
+    height: 60px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.playerchoice_green{
+    background-color: limegreen;
+}
+
+.playerchoice_red{
+    background-color: crimson;
+}
+
+.playerchoice_green:hover , .playerchoice_red:hover{
+    opacity: 0.3;
+    border-width: 2px;
+}
+
+.player_score{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    width: 120px;
+    border: 1px solid;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+.enemy_score{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    width: 120px;
+    border: 1px solid;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+
+.enemychoice_green{
+    background-color: limegreen;
+}
+
+.enemychoice_red{
+    background-color: crimson;
+}
+
+.display_score{
+    font-size: 3rem;
+}
