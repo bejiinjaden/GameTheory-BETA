@@ -61,7 +61,8 @@ function modalopen(character){
          currentenemy.name = character.name.toLowerCase();
          console.log(currentenemy);
          document.querySelector('.enemy_score_display').innerHTML = ""
-         score.enemy, score.player = 0 , 0;
+         score.enemy = 0;
+         score.player = 0;
          
          document.querySelector('.player_score').innerHTML = `<p class="display_score">${score.player}</p>`;
         
